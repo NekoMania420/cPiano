@@ -5,6 +5,9 @@
 #include <QMediaPlayer>
 #include <QMediaPlaylist>
 #include <QPushButton>
+#include <QKeyEvent>
+#include <QTimer>
+#include <QApplication>
 
 namespace Ui {
 class MainWindow;
@@ -23,6 +26,13 @@ public:
     void whiteNoteReleased(QPushButton *button);
     void blackNotePressed(QPushButton *button);
     void blackNoteReleased(QPushButton *button);
+
+    void keyPressEvent(QKeyEvent *event);
+    void keyReleaseEvent(QKeyEvent *event);
+
+    void refreshList();
+
+    void pianoButtonClickable(bool value);
 
 private slots:
     void on_c1_pressed();
@@ -77,10 +87,19 @@ private slots:
     void on_aSharp2_released();
     void on_b2_released();
 
+    void on_action_About_triggered();
+
+    void on_refreshSoundList_clicked();
+
+    void showCurrentSoundBank();
+
+    void lowerPianoLabelOctave();
+    void upperPianoLabelOctave();
+
 private:
     Ui::MainWindow *ui;
-    QMediaPlayer *player;
-    QMediaPlaylist *playlist;
+    QMediaPlayer p[24];
+    QTimer *timer;
 };
 
 #endif // MAINWINDOW_H
