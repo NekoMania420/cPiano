@@ -96,6 +96,8 @@ private slots:
     void lowerPianoLabelOctave();
     void upperPianoLabelOctave();
 
+    void on_actionShortcut_key_triggered();
+
 private:
     Ui::MainWindow *ui;
     QMediaPlayer p[24];

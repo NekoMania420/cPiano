@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "aboutdialog.h"
+#include "shortcutdialog.h"
 #include <QThread>
 #include <QDir>
 #include <QFileInfoList>
@@ -678,6 +679,37 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
             }
         }
     }
+
+    switch (event->key())
+    {
+    case Qt::Key_Minus:
+        ui->upperOctave->setValue(ui->upperOctave->value() - 1);
+        break;
+
+    case Qt::Key_Equal:
+        ui->upperOctave->setValue(ui->upperOctave->value() + 1);
+        break;
+
+    case Qt::Key_BracketLeft:
+        ui->lowerOctave->setValue(ui->lowerOctave->value() - 1);
+        break;
+
+    case Qt::Key_BracketRight:
+        ui->lowerOctave->setValue(ui->lowerOctave->value() + 1);
+        break;
+
+    case Qt::Key_PageDown:
+        ui->volumeSlider->setValue(ui->volumeSlider->value() - 5);
+        break;
+
+    case Qt::Key_PageUp:
+        ui->volumeSlider->setValue(ui->volumeSlider->value() + 5);
+        break;
+
+    case Qt::Key_F5:
+        refreshList();
+        break;
+    }
 }
 
 void MainWindow::keyReleaseEvent(QKeyEvent *event)
@@ -822,4 +854,10 @@ void MainWindow::on_refreshSoundList_clicked()
 {
     // Refresh when you click refresh button.
     refreshList();
+}
+
+void MainWindow::on_actionShortcut_key_triggered()
+{
+    ShortcutDialog shortcut;
+    shortcut.exec();
 }

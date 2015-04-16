@@ -14,13 +14,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    aboutdialog.cpp
+    aboutdialog.cpp \
+    shortcutdialog.cpp
 
 HEADERS  += mainwindow.h \
-    aboutdialog.h
+    aboutdialog.h \
+    shortcutdialog.h
 
 FORMS    += mainwindow.ui \
-    aboutdialog.ui
+    aboutdialog.ui \
+    shortcutdialog.ui
 
 RESOURCES += \
     resources.qrc

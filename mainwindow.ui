@@ -1437,6 +1437,9 @@
               <pointsize>20</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
+            </property>
             <property name="text">
              <string>Q</string>
             </property>
@@ -1456,6 +1459,9 @@
               <pointsize>20</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
+            </property>
             <property name="text">
              <string>W</string>
             </property>
@@ -1471,6 +1477,9 @@
               <family>Segoe UI</family>
               <pointsize>20</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
             </property>
             <property name="text">
              <string>E</string>
@@ -1488,6 +1497,9 @@
               <pointsize>20</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
+            </property>
             <property name="text">
              <string>R</string>
             </property>
@@ -1503,6 +1515,9 @@
               <family>Segoe UI</family>
               <pointsize>20</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
             </property>
             <property name="text">
              <string>T</string>
@@ -1520,6 +1535,9 @@
               <pointsize>20</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
+            </property>
             <property name="text">
              <string>Y</string>
             </property>
@@ -1535,6 +1553,9 @@
               <family>Segoe UI</family>
               <pointsize>20</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
             </property>
             <property name="text">
              <string>U</string>
@@ -1570,6 +1591,9 @@
               <pointsize>20</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
+            </property>
             <property name="text">
              <string>Z</string>
             </property>
@@ -1585,6 +1609,9 @@
               <family>Segoe UI</family>
               <pointsize>20</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
             </property>
             <property name="text">
              <string>X</string>
@@ -1602,6 +1629,9 @@
               <pointsize>20</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
+            </property>
             <property name="text">
              <string>C</string>
             </property>
@@ -1617,6 +1647,9 @@
               <family>Segoe UI</family>
               <pointsize>20</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
             </property>
             <property name="text">
              <string>V</string>
@@ -1634,6 +1667,9 @@
               <pointsize>20</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
+            </property>
             <property name="text">
              <string>B</string>
             </property>
@@ -1650,6 +1686,9 @@
               <pointsize>20</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
+            </property>
             <property name="text">
              <string>N</string>
             </property>
@@ -1665,6 +1704,9 @@
               <family>Segoe UI</family>
               <pointsize>20</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgba(0, 0, 0, 0.5);</string>
             </property>
             <property name="text">
              <string>M</string>
@@ -1701,7 +1743,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>2</string>
@@ -1720,7 +1762,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>3</string>
@@ -1755,7 +1797,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>5</string>
@@ -1774,7 +1816,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>6</string>
@@ -1793,7 +1835,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>7</string>
@@ -1830,7 +1872,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>S</string>
@@ -1849,7 +1891,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>D</string>
@@ -1884,7 +1926,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>G</string>
@@ -1903,7 +1945,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>H</string>
@@ -1922,7 +1964,7 @@
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: white;</string>
+             <string notr="true">color: rgba(255, 255, 255, 0.5);</string>
             </property>
             <property name="text">
              <string>J</string>
@@ -2181,12 +2223,19 @@
      <string>&amp;Help</string>
     </property>
     <addaction name="action_About"/>
+    <addaction name="separator"/>
+    <addaction name="actionShortcut_key"/>
    </widget>
    <addaction name="menu_About"/>
   </widget>
   <action name="action_About">
    <property name="text">
     <string>About C Piano</string>
+   </property>
+  </action>
+  <action name="actionShortcut_key">
+   <property name="text">
+    <string>Shortcut key</string>
    </property>
   </action>
  </widget>

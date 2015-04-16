@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShortcutDialog</class>
+ <widget class="QDialog" name="ShortcutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>220</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>360</width>
+    <height>220</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>360</width>
+    <height>220</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>C Piano</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/images/icon.png</normaloff>:/images/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #222; color: white; font-size: 10pt;</string>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,3">
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-size: 20pt;</string>
+     </property>
+     <property name="text">
+      <string>Shortcut key</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;table width=&quot;100%&quot;&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot; style=&quot;font-weight: bold;&quot;&gt;-&lt;/td&gt;
+&lt;td&gt;Upper pad octave down&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot; style=&quot;font-weight: bold;&quot;&gt;=&lt;/td&gt;
+&lt;td&gt;Upper pad octave up&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot; style=&quot;font-weight: bold;&quot;&gt;[&lt;/td&gt;
+&lt;td&gt;Lower pad octave down&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot; style=&quot;font-weight: bold;&quot;&gt;]&lt;/td&gt;
+&lt;td&gt;Lower pad octave up&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot; style=&quot;font-weight: bold;&quot;&gt;PgDn&lt;/td&gt;
+&lt;td&gt;Volume down&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot; style=&quot;font-weight: bold;&quot;&gt;PgUp&lt;/td&gt;
+&lt;td&gt;Volume up&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;center&quot; style=&quot;font-weight: bold;&quot;&gt;F5&lt;/td&gt;
+&lt;td&gt;Refresh sound list&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
