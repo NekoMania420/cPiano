@@ -404,145 +404,145 @@ void MainWindow::on_b2_pressed()
 void MainWindow::on_c1_released()
 {
     whiteNoteReleased(ui->c1);
-    if (ui->sustain->isChecked()) p[0].pause();
+    if (!ui->sustain->isChecked()) p[0].pause();
 }
 
 void MainWindow::on_cSharp1_released()
 {
     blackNoteReleased(ui->cSharp1);
-    if (ui->sustain->isChecked()) p[1].pause();
+    if (!ui->sustain->isChecked()) p[1].pause();
 }
 
 void MainWindow::on_d1_released()
 {
     whiteNoteReleased(ui->d1);
-    if (ui->sustain->isChecked()) p[2].pause();
+    if (!ui->sustain->isChecked()) p[2].pause();
 }
 
 void MainWindow::on_dSharp1_released()
 {
     blackNoteReleased(ui->dSharp1);
-    if (ui->sustain->isChecked()) p[3].pause();
+    if (!ui->sustain->isChecked()) p[3].pause();
 }
 
 void MainWindow::on_e1_released()
 {
     whiteNoteReleased(ui->e1);
-    if (ui->sustain->isChecked()) p[4].pause();
+    if (!ui->sustain->isChecked()) p[4].pause();
 }
 
 void MainWindow::on_f1_released()
 {
     whiteNoteReleased(ui->f1);
-    if (ui->sustain->isChecked()) p[5].pause();
+    if (!ui->sustain->isChecked()) p[5].pause();
 }
 
 void MainWindow::on_fSharp1_released()
 {
     blackNoteReleased(ui->fSharp1);
-    if (ui->sustain->isChecked()) p[6].pause();
+    if (!ui->sustain->isChecked()) p[6].pause();
 }
 
 void MainWindow::on_g1_released()
 {
     whiteNoteReleased(ui->g1);
-    if (ui->sustain->isChecked()) p[7].pause();
+    if (!ui->sustain->isChecked()) p[7].pause();
 }
 
 void MainWindow::on_gSharp1_released()
 {
     blackNoteReleased(ui->gSharp1);
-    if (ui->sustain->isChecked()) p[8].pause();
+    if (!ui->sustain->isChecked()) p[8].pause();
 }
 
 void MainWindow::on_a1_released()
 {
     whiteNoteReleased(ui->a1);
-    if (ui->sustain->isChecked()) p[9].pause();
+    if (!ui->sustain->isChecked()) p[9].pause();
 }
 
 void MainWindow::on_aSharp1_released()
 {
     blackNoteReleased(ui->aSharp1);
-    if (ui->sustain->isChecked()) p[10].pause();
+    if (!ui->sustain->isChecked()) p[10].pause();
 }
 
 void MainWindow::on_b1_released()
 {
     whiteNoteReleased(ui->b1);
-    if (ui->sustain->isChecked()) p[11].pause();
+    if (!ui->sustain->isChecked()) p[11].pause();
 }
 
 void MainWindow::on_c2_released()
 {
     whiteNoteReleased(ui->c2);
-    if (ui->sustain->isChecked()) p[12].pause();
+    if (!ui->sustain->isChecked()) p[12].pause();
 }
 
 void MainWindow::on_cSharp2_released()
 {
     blackNoteReleased(ui->cSharp2);
-    if (ui->sustain->isChecked()) p[13].pause();
+    if (!ui->sustain->isChecked()) p[13].pause();
 }
 
 void MainWindow::on_d2_released()
 {
     whiteNoteReleased(ui->d2);
-    if (ui->sustain->isChecked()) p[14].pause();
+    if (!ui->sustain->isChecked()) p[14].pause();
 }
 
 void MainWindow::on_dSharp2_released()
 {
     blackNoteReleased(ui->dSharp2);
-    if (ui->sustain->isChecked()) p[15].pause();
+    if (!ui->sustain->isChecked()) p[15].pause();
 }
 
 void MainWindow::on_e2_released()
 {
     whiteNoteReleased(ui->e2);
-    if (ui->sustain->isChecked()) p[16].pause();
+    if (!ui->sustain->isChecked()) p[16].pause();
 }
 
 void MainWindow::on_f2_released()
 {
     whiteNoteReleased(ui->f2);
-    if (ui->sustain->isChecked()) p[17].pause();
+    if (!ui->sustain->isChecked()) p[17].pause();
 }
 
 void MainWindow::on_fSharp2_released()
 {
     blackNoteReleased(ui->fSharp2);
-    if (ui->sustain->isChecked()) p[18].pause();
+    if (!ui->sustain->isChecked()) p[18].pause();
 }
 
 void MainWindow::on_g2_released()
 {
     whiteNoteReleased(ui->g2);
-    if (ui->sustain->isChecked()) p[19].pause();
+    if (!ui->sustain->isChecked()) p[19].pause();
 }
 
 void MainWindow::on_gSharp2_released()
 {
     blackNoteReleased(ui->gSharp2);
-    if (ui->sustain->isChecked()) p[20].pause();
+    if (!ui->sustain->isChecked()) p[20].pause();
 }
 
 void MainWindow::on_a2_released()
 {
     whiteNoteReleased(ui->a2);
-    if (ui->sustain->isChecked()) p[21].pause();
+    if (!ui->sustain->isChecked()) p[21].pause();
 }
 
 void MainWindow::on_aSharp2_released()
 {
     blackNoteReleased(ui->aSharp2);
-    if (ui->sustain->isChecked()) p[22].pause();
+    if (!ui->sustain->isChecked()) p[22].pause();
 }
 
 void MainWindow::on_b2_released()
 {
     whiteNoteReleased(ui->b2);
-    if (ui->sustain->isChecked()) p[23].pause();
+    if (!ui->sustain->isChecked()) p[23].pause();
 }
 
 /*
@@ -722,121 +722,121 @@ void MainWindow::keyReleaseEvent(QKeyEvent *event)
             {
             case Qt::Key_Z:
                 whiteNoteReleased(ui->c1);
-                if (ui->sustain->isChecked()) p[0].pause();
+                if (!ui->sustain->isChecked()) p[0].pause();
                 break;
 
             case Qt::Key_S:
                 blackNoteReleased(ui->cSharp1);
-                if (ui->sustain->isChecked()) p[1].pause();
+                if (!ui->sustain->isChecked()) p[1].pause();
                 break;
 
             case Qt::Key_X:
                 whiteNoteReleased(ui->d1);
-                if (ui->sustain->isChecked()) p[2].pause();
+                if (!ui->sustain->isChecked()) p[2].pause();
                 break;
 
             case Qt::Key_D:
                 blackNoteReleased(ui->dSharp1);
-                if (ui->sustain->isChecked()) p[3].pause();
+                if (!ui->sustain->isChecked()) p[3].pause();
                 break;
 
             case Qt::Key_C:
                 whiteNoteReleased(ui->e1);
-                if (ui->sustain->isChecked()) p[4].pause();
+                if (!ui->sustain->isChecked()) p[4].pause();
                 break;
 
             case Qt::Key_V:
                 whiteNoteReleased(ui->f1);
-                if (ui->sustain->isChecked()) p[5].pause();
+                if (!ui->sustain->isChecked()) p[5].pause();
                 break;
 
             case Qt::Key_G:
                 blackNoteReleased(ui->fSharp1);
-                if (ui->sustain->isChecked()) p[6].pause();
+                if (!ui->sustain->isChecked()) p[6].pause();
                 break;
 
             case Qt::Key_B:
                 whiteNoteReleased(ui->g1);
-                if (ui->sustain->isChecked()) p[7].pause();
+                if (!ui->sustain->isChecked()) p[7].pause();
                 break;
 
             case Qt::Key_H:
                 blackNoteReleased(ui->gSharp1);
-                if (ui->sustain->isChecked()) p[8].pause();
+                if (!ui->sustain->isChecked()) p[8].pause();
                 break;
 
             case Qt::Key_N:
                 whiteNoteReleased(ui->a1);
-                if (ui->sustain->isChecked()) p[9].pause();
+                if (!ui->sustain->isChecked()) p[9].pause();
                 break;
 
             case Qt::Key_J:
                 blackNoteReleased(ui->aSharp1);
-                if (ui->sustain->isChecked()) p[10].pause();
+                if (!ui->sustain->isChecked()) p[10].pause();
                 break;
 
             case Qt::Key_M:
                 whiteNoteReleased(ui->b1);
-                if (ui->sustain->isChecked()) p[11].pause();
+                if (!ui->sustain->isChecked()) p[11].pause();
                 break;
 
             case Qt::Key_Q:
                 whiteNoteReleased(ui->c2);
-                if (ui->sustain->isChecked()) p[12].pause();
+                if (!ui->sustain->isChecked()) p[12].pause();
                 break;
 
             case Qt::Key_2:
                 blackNoteReleased(ui->cSharp2);
-                if (ui->sustain->isChecked()) p[13].pause();
+                if (!ui->sustain->isChecked()) p[13].pause();
                 break;
 
             case Qt::Key_W:
                 whiteNoteReleased(ui->d2);
-                if (ui->sustain->isChecked()) p[14].pause();
+                if (!ui->sustain->isChecked()) p[14].pause();
                 break;
 
             case Qt::Key_3:
                 blackNoteReleased(ui->dSharp2);
-                if (ui->sustain->isChecked()) p[15].pause();
+                if (!ui->sustain->isChecked()) p[15].pause();
                 break;
             case Qt::Key_E:
                 whiteNoteReleased(ui->e2);
-                if (ui->sustain->isChecked()) p[16].pause();
+                if (!ui->sustain->isChecked()) p[16].pause();
                 break;
 
             case Qt::Key_R:
                 whiteNoteReleased(ui->f2);
-                if (ui->sustain->isChecked()) p[17].pause();
+                if (!ui->sustain->isChecked()) p[17].pause();
                 break;
 
             case Qt::Key_5:
                 blackNoteReleased(ui->fSharp2);
-                if (ui->sustain->isChecked()) p[18].pause();
+                if (!ui->sustain->isChecked()) p[18].pause();
                 break;
 
             case Qt::Key_T:
                 whiteNoteReleased(ui->g2);
-                if (ui->sustain->isChecked()) p[19].pause();
+                if (!ui->sustain->isChecked()) p[19].pause();
                 break;
 
             case Qt::Key_6:
                 blackNoteReleased(ui->gSharp2);
-                if (ui->sustain->isChecked()) p[20].pause();
+                if (!ui->sustain->isChecked()) p[20].pause();
                 break;
 
             case Qt::Key_Y:
                 whiteNoteReleased(ui->a2);
-                if (ui->sustain->isChecked()) p[21].pause();
+                if (!ui->sustain->isChecked()) p[21].pause();
                 break;
 
             case Qt::Key_7:
                 blackNoteReleased(ui->aSharp2);
-                if (ui->sustain->isChecked()) p[22].pause();
+                if (!ui->sustain->isChecked()) p[22].pause();
                 break;
 
             case Qt::Key_U:
                 whiteNoteReleased(ui->b2);
-                if (ui->sustain->isChecked()) p[23].pause();
+                if (!ui->sustain->isChecked()) p[23].pause();
                 break;
             }
         }

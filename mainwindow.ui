@@ -2000,10 +2000,10 @@
           <string/>
          </property>
          <property name="minimum">
-          <number>0</number>
+          <number>2</number>
          </property>
          <property name="maximum">
-          <number>10</number>
+          <number>6</number>
          </property>
          <property name="value">
           <number>5</number>
@@ -2030,10 +2030,10 @@
           <string/>
          </property>
          <property name="minimum">
-          <number>0</number>
+          <number>2</number>
          </property>
          <property name="maximum">
-          <number>10</number>
+          <number>6</number>
          </property>
          <property name="value">
           <number>4</number>
@@ -2185,7 +2185,7 @@
             <string>Sustain</string>
            </property>
            <property name="checked">
-            <bool>false</bool>
+            <bool>true</bool>
            </property>
            <property name="tristate">
             <bool>false</bool>
